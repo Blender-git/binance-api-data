@@ -37,7 +37,7 @@ Create a directory named crypto_data (if it doesn’t already exist).
 Save each coin's data in a CSV file within the crypto_data directory.
 Append new data to existing CSV files if they already exist, ensuring the data is up to date.
 CSV File Naming
-Each coin’s data will be saved in a file named after the trading pair, e.g., BTCUSDT.csv, ETHUSDT.csv, etc.
+Each coin’s data will be saved in a file named after the trading pair, e.g., BTC_USDT_1m_data.csv, ETH_USDT_1m_data.csv, etc.
 
 Contributing
 Contributions are welcome! Feel free to Suggestions for new features or improvements are appreciated.
