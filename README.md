@@ -7,7 +7,6 @@ This project provides a Python script to fetch historical trading data for all a
 The downloaded data follows this CSV file structure:
 
 csv
-Code kopiëren
 timestamp,open,high,low,close,volume  
 2020-11-18 03:00:00,0.4904,0.618,0.4904,0.5175,79250.42  
 
