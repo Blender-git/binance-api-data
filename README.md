@@ -13,15 +13,15 @@ timestamp,open,high,low,close,volume
 Features
 Utilizes Binance's public API (no API key required).
 Downloads 1-minute (1m) historical data for all available coins on Binance.
-Saves each coin's data into a separate CSV file named after the coin (e.g., BTCUSDT.csv).
+Saves each coin's data into a separate CSV file named after the coin (e.g., BTC_USDT_1m_data.csv).
 Organizes all CSV files into a folder called crypto_data.
 If the crypto_data folder already exists:
 Reads existing CSV files.
 Appends new data to the files, ensuring no data duplication.
 Resumes fetching data from the latest available timestamp.
 Requirements
-Python 3.12 or higher
-Internet connection
+Python 3.12
+
 
 Install dependencies:
 
